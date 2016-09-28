@@ -1,0 +1,18 @@
+c:\users\admin\documents\visual studio 2013\Projects\new project\new project\bin\new project.dll.config
+c:\users\admin\documents\visual studio 2013\Projects\new project\new project\bin\new project.dll
+c:\users\admin\documents\visual studio 2013\Projects\new project\new project\bin\new project.pdb
+c:\users\admin\documents\visual studio 2013\Projects\new project\new project\bin\new project.xml
+c:\users\admin\documents\visual studio 2013\Projects\new project\new project\obj\Debug\new_project.Resources.resources
+c:\users\admin\documents\visual studio 2013\Projects\new project\new project\obj\Debug\ShoppingCart.vbproj.GenerateResource.Cache
+c:\users\admin\documents\visual studio 2013\Projects\new project\new project\obj\Debug\new project.dll
+c:\users\admin\documents\visual studio 2013\Projects\new project\new project\obj\Debug\new project.xml
+c:\users\admin\documents\visual studio 2013\Projects\new project\new project\obj\Debug\new project.pdb
+C:\Users\admin\Desktop\new project\new project\bin\new project.dll.config
+C:\Users\admin\Desktop\new project\new project\bin\new project.dll
+C:\Users\admin\Desktop\new project\new project\bin\new project.pdb
+C:\Users\admin\Desktop\new project\new project\bin\new project.xml
+C:\Users\admin\Desktop\new project\new project\obj\Debug\new_project.Resources.resources
+C:\Users\admin\Desktop\new project\new project\obj\Debug\ShoppingCart.vbproj.GenerateResource.Cache
+C:\Users\admin\Desktop\new project\new project\obj\Debug\new project.dll
+C:\Users\admin\Desktop\new project\new project\obj\Debug\new project.xml
+C:\Users\admin\Desktop\new project\new project\obj\Debug\new project.pdb

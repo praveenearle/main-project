@@ -1,0 +1,40 @@
+﻿
+<h1> Grocery:</h1><br/>
+<p>
+    Search: <input ng-model="search">
+</p><br />
+
+<table class="table table-bordered">
+    <tr class="well">
+        <td class="tdRight" colspan="4">
+            <a href="default.htm#/cart" title="go to shopping cart" ng-disabled="cart.getTotalCount() < 1">
+                <i class="icon-shopping-cart" />
+                <b>{{cart.getTotalCount()}}</b> items, <b>{{cart.getTotalPrice() | currency:'&#8377;'}}</b>
+            </a>
+        </td>
+    </tr>
+    <tr ng-repeat="grocery in store.groceries | orderBy:'name' | filter:search">
+        <td class="tdCenter"><img ng-src="img/products/{{grocery.sku}}.png" alt="{{grocery.name}}" /></td>
+        <td>
+            <a href="#/products/{{grocery.sku}}"><b>{{grocery.name}}</b></a><br />
+            {{grocery.description}}
+
+        </td>
+        <td class="tdRight">
+            <b> {{grocery.price | currency:'&#8377;'}}
+        </td>
+        <td class="tdCenter">
+            <a href="" ng-click="cart.addItem(grocery.sku, grocery.name, grocery.price, 1)">
+                add to cart
+            </a>
+        </td>
+    </tr>
+    <tr class="well">
+        <td class="tdRight" colspan="4">
+            <a href="default.htm#/cart" title="go to shopping cart" ng-disabled="cart.getTotalCount() < 1">
+                <i class="icon-shopping-cart" />
+                <b>{{cart.getTotalCount()}}</b> items, <b>{{cart.getTotalPrice() | currency:'&#8377;'}}</b>
+            </a>
+        </td>
+    </tr>
+</table>
